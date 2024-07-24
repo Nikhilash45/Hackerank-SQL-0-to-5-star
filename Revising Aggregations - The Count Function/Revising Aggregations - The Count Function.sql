@@ -1,0 +1,3 @@
+SELECT 
+    COUNT(CASE WHEN Population>100000 THEN Name END)
+From CITY
